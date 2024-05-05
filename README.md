@@ -18,3 +18,6 @@ First, we need to download VirtualBox, VirtualBox Extension pack, Microsoft Serv
     
 - Select the Windows Server 2022 ISO.
 ![Create-New-VM](https://github.com/jdcarlyle1317/AD_PS/assets/88341973/987a6815-819b-4acd-89c6-63682b1f2ee5)
+
+- Allocate resources. This will depend on how much RAM and CPU cores you have available. I suggest at least 4GB of RAM.
+![Resource-Allocation](https://github.com/jdcarlyle1317/AD_PS/assets/88341973/e3373a17-8bcd-4cc0-8336-1d08db4ffcbc)
