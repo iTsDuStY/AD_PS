@@ -42,8 +42,10 @@ A script was used to bulk-create users from a text file.
 Import-Csv names.txt | ForEach-Object {
     New-ADUser -Name $_.Name -GivenName $_.FirstName -Surname $_.LastName
 }
+```
+---
 
-    
+ 
 - Select the Windows Server 2022 ISO.
 ![Create-New-VM](https://github.com/jdcarlyle1317/AD_PS/assets/88341973/987a6815-819b-4acd-89c6-63682b1f2ee5)
 
