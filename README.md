@@ -43,7 +43,7 @@ Import-Csv names.txt | ForEach-Object {
     New-ADUser -Name $_.Name -GivenName $_.FirstName -Surname $_.LastName
 }
 ```
-By following this guide, users can create a robust AD home lab environment, providing hands-on experience essential for mastering Windows Server and Active Directory administration.
+By following this [guide](https://github.com/iTsDuStY/AD_PS/blob/main/setup-guide.md), users can create a robust AD home lab environment, providing hands-on experience essential for mastering Windows Server and Active Directory administration.
 
 
 
